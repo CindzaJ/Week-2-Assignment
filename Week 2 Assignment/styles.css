@@ -1,0 +1,59 @@
+body,html,link{
+    height: 120%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    color:aliceblue
+}
+header{
+    padding: 20px;
+    text-align: right;
+    font-size: 30px;
+    justify-content: space-between;
+    margin: 30px
+}
+div{
+    flex-wrap: fixed;
+        float: left;
+        width: 100%;
+        padding: 5px;
+        justify-content: left;
+      }
+h1{font-size: 70px;
+    text-align: center;
+    justify-content: space-evenly;
+} 
+h2{font-size: 32px;
+    text-align: center;
+    justify-content: space-between
+} 
+div{
+    text-align:center;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
+bg{
+background-image: url("Ace.png");
+height: 60%;
+background-position:center;
+background-repeat: no-repeat;
+background-size:auto;
+}
+p{
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    justify-content: left;
+    text-decoration: dashed;
+}
+a:link{
+color:aliceblue
+}
+a:visited{
+color: aliceblue;
+}
+footer{
+padding: 50px;
+text-align: center;
+font-style: italic;
+}
